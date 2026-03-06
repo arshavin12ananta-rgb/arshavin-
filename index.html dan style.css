@@ -1,0 +1,31 @@
+<textarea placeholder="Masukkan alamat lengkap"></textarea>
+
+<label>No HP</label>
+<input type="tel" placeholder="08xxxxxxxxxx">
+
+<button type="submit">Kirim Pesanan</button>
+
+</form>
+
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 TokoKu Marketplace</p>
+</footer>
+
+<script>
+
+function pilihProduk(namaProduk){
+document.getElementById("produk").value = namaProduk;
+window.scrollTo({
+top: document.querySelector(".order-form").offsetTop,
+behavior: "smooth"
+});
+}
+
+</script>
+
+</body>
+</html>
